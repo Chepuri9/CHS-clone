@@ -1,0 +1,172 @@
+/* about.css */
+.appLogo{
+    background: url(http://chssoftwares.com/static/img/logos/CHS_Logo_500.svg) no-repeat;
+    width: 150px;
+    height: 70px;
+    background-size: contain;
+    background-position: center;
+}
+.nav-link, .card-link{
+    color:#005FAE !important;
+}
+.arrow-img-card {
+    margin-left: 10px;
+}
+.arrow-img {
+    margin-left: 0px;;
+    margin-right: 20px;
+}
+.card {
+    border: 1px solid black;
+    border-radius: 10px !important;
+    min-height: 460px !important;
+    height: 490px !important;
+}
+.card h1 {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1.4em;
+    color:#212329;
+}
+
+.about-bottom-div h1 {
+    color: #005FAE;
+    text-align: center;
+    padding: 20px 90px;
+    font-weight: 700;
+    max-width: 75%;
+}
+@media  (min-height:600){
+    .about-bottom-div h1 {
+        font-size: 14px;
+
+    }    
+}
+@media  (min-height:900){
+    .about-bottom-div h1 {
+        font-size: 18px;
+
+    }    
+}
+@media  (max-height:1200){
+    .about-bottom-div h1 {
+        font-size: 30px;
+
+    }    
+}
+.about-bottom-div span {
+    color: #ffa500;
+}
+.about-bottom {
+padding: 35px 0px;
+background-color: #f1f5f9;
+}
+.offer-heading {
+    background-size: 50px;
+    font-weight: bold;
+    padding: 10px 0px;
+    color: #000;
+    font-size: 2em;
+}
+ul{
+    list-style-type: none;
+    padding-left: 10px;
+    margin-left:0px;
+}
+.offer-heading {
+    padding-bottom: 0px;
+}
+.offer-card {
+    background-color: #f1f5f9;
+    padding: 10px 30px;
+    margin-top: 10px;
+
+}
+.list-text {
+    font-weight: 700;
+    color: #005FAE;
+}
+.offer-card-result-div {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-color: #efefef;
+}
+.section3-part-1{
+    background-color: #f1f5f9;
+    width: 100%;
+}
+.ul-class {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.ul-class li{
+    width: 50%;
+}
+
+.techCell {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px;
+    width: 200px;
+    height:100px;
+}
+.chs-button-primary {
+    display: inline-block;
+    border: 1.5px solid #04297C;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #DDD;
+    color: #04297C;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+.conclusion-div {
+    background-color: #f1f5f9;
+}
+.bg-color-contact{
+    background-color: #04297c;
+    
+
+}
+.contact-div{
+    color:#DDDDDD;
+    font-size:13px;
+}
+.ul-contact {
+    padding-left: 0px;
+}
+.address-2 {
+    color: #999999;
+    margin: 5px 5px 5px 0px;
+}
+.footer-para-div {
+    color: #DDDDDD;
+}
+@media (max-width:600px){
+    .contact-div{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.bottom-right-box {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: transparent !important;
+
+}
+  .bottom-right-box {
+    position: fixed;
+    bottom: 5vh;
+    right: 1vw;
+    background-color: transparent
+}
+  .bi-chevron-up {
+    background-color: transparent !important;
+}
